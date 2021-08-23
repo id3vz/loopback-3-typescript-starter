@@ -1,0 +1,14 @@
+{
+  "watch": ["server", "common"],
+  "ext": "ts,json",
+  "ignore": [
+    "src/**/*.spec.ts",
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    ".git",
+    "node_modules",
+    "build"
+  ],
+  "delay": 50,
+  "exec": "npm run dev"
+}
